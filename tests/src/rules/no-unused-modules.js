@@ -91,7 +91,7 @@ ruleTester.run('no-unused-modules', rule, {
     }),
     test({
       options: missingExportsOptions,
-      code: 'export = 1;',
+      code: 'export = {};',
     }),
   ],
   invalid: [
